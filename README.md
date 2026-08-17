@@ -32,6 +32,7 @@ A set of production-oriented modules covering a full AWS platform. Each one ship
 | [terraform-aws-ecs-service](https://github.com/orlando-mt/terraform-aws-ecs-service) | ECS service with typed container definitions, IAM roles, target group and autoscaling |
 | [terraform-aws-lambda](https://github.com/orlando-mt/terraform-aws-lambda) | Lambda with all packaging types, least-privilege role and event source mappings |
 | [terraform-aws-ecr](https://github.com/orlando-mt/terraform-aws-ecr) | ECR repository with KMS encryption, lifecycle policy and replication |
+| [terraform-aws-karpenter](https://github.com/orlando-mt/terraform-aws-karpenter) | Karpenter on EKS with IRSA, node role, interruption queue and a scoped IAM policy |
 | [terraform-aws-load-balancer-controller](https://github.com/orlando-mt/terraform-aws-load-balancer-controller) | AWS Load Balancer Controller on EKS with IRSA and a tag-scoped IAM policy |
 
 ### Data
@@ -41,6 +42,7 @@ A set of production-oriented modules covering a full AWS platform. Each one ship
 | [terraform-aws-rds](https://github.com/orlando-mt/terraform-aws-rds) | Aurora PostgreSQL, provisioned or Serverless v2, credentials in Secrets Manager |
 | [terraform-aws-documentdb](https://github.com/orlando-mt/terraform-aws-documentdb) | DocumentDB cluster with managed credentials and granular security group rules |
 | [terraform-aws-dynamodb](https://github.com/orlando-mt/terraform-aws-dynamodb) | DynamoDB tables with GSI/LSI, streams, global tables and capacity autoscaling |
+| [terraform-aws-elasticache](https://github.com/orlando-mt/terraform-aws-elasticache) | ElastiCache for Valkey, Redis or Memcached, node-based or serverless |
 | [terraform-aws-s3](https://github.com/orlando-mt/terraform-aws-s3) | S3 with secure defaults, lifecycle rules, replication and VPC endpoint policies |
 
 ### Messaging and events
