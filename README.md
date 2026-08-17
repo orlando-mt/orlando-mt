@@ -25,14 +25,14 @@ A set of production-oriented modules covering a full AWS platform. Each one ship
 
 ### Compute and containers
 
-| Module                                                                                                         | What it does |
-|----------------------------------------------------------------------------------------------------------------|--------------|
-| [terraform-aws-eks](https://github.com/orlando-mt/terraform-aws-eks)                                           | EKS cluster with access entries, multiple node groups, addon ordering, private endpoint by default |
-| [terraform-aws-ecs-cluster](https://github.com/orlando-mt/terraform-aws-ecs-cluster)                           | ECS cluster with capacity providers, Container Insights and ECS Exec logging |
-| [terraform-aws-ecs-service](https://github.com/orlando-mt/terraform-aws-ecs-service)                           | ECS service with typed container definitions, IAM roles, target group and autoscaling |
-| [terraform-aws-lambda](https://github.com/orlando-mt/terraform-aws-lambda)                                     | Lambda with all packaging types, least-privilege role and event source mappings |
-| [terraform-aws-ecr](https://github.com/orlando-mt/terraform-aws-ecr)                                           | ECR repository with KMS encryption, lifecycle policy and replication |
-| [terraform-aws-eks-karpenter](https://github.com/orlando-mt/terraform-aws-eks-karpenter)                       | Karpenter on EKS with IRSA, node role, interruption queue and a scoped IAM policy |
+| Module | What it does |
+|--------|--------------|
+| [terraform-aws-eks](https://github.com/orlando-mt/terraform-aws-eks) | EKS cluster with access entries, multiple node groups, addon ordering, private endpoint by default |
+| [terraform-aws-ecs-cluster](https://github.com/orlando-mt/terraform-aws-ecs-cluster) | ECS cluster with capacity providers, Container Insights and ECS Exec logging |
+| [terraform-aws-ecs-service](https://github.com/orlando-mt/terraform-aws-ecs-service) | ECS service with typed container definitions, IAM roles, target group and autoscaling |
+| [terraform-aws-lambda](https://github.com/orlando-mt/terraform-aws-lambda) | Lambda with all packaging types, least-privilege role and event source mappings |
+| [terraform-aws-ecr](https://github.com/orlando-mt/terraform-aws-ecr) | ECR repository with KMS encryption, lifecycle policy and replication |
+| [terraform-aws-karpenter](https://github.com/orlando-mt/terraform-aws-karpenter) | Karpenter on EKS with IRSA, node role, interruption queue and a scoped IAM policy |
 | [terraform-aws-load-balancer-controller](https://github.com/orlando-mt/terraform-aws-load-balancer-controller) | AWS Load Balancer Controller on EKS with IRSA and a tag-scoped IAM policy |
 
 ### Data
