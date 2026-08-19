@@ -19,20 +19,21 @@ A set of production-oriented modules covering a full AWS platform. Each one ship
 
 | Module | What it does |
 |--------|--------------|
-| [terraform-aws-vpc](https://github.com/orlando-mt/terraform-aws-vpc) | Service-segmented private VPC: one subnet per service per AZ, own route table, flow logs |
+| [terraform-aws-vpc](https://github.com/orlando-mt/terraform-aws-vpc) | Service-segmented VPC: one subnet per service per AZ, flow logs, optional public subnets and NAT |
 | [terraform-aws-vpc-endpoint](https://github.com/orlando-mt/terraform-aws-vpc-endpoint) | Interface and Gateway endpoints with short service names and endpoint policies |
 | [terraform-aws-vpc-link](https://github.com/orlando-mt/terraform-aws-vpc-link) | API Gateway VPC Link with egress scoped to the backend |
 
 ### Compute and containers
 
-| Module                                                                                                         | What it does |
-|----------------------------------------------------------------------------------------------------------------|--------------|
-| [terraform-aws-eks](https://github.com/orlando-mt/terraform-aws-eks)                                           | EKS cluster with access entries, multiple node groups, addon ordering, private endpoint by default |
-| [terraform-aws-ecs-cluster](https://github.com/orlando-mt/terraform-aws-ecs-cluster)                           | ECS cluster with capacity providers, Container Insights and ECS Exec logging |
-| [terraform-aws-ecs-service](https://github.com/orlando-mt/terraform-aws-ecs-service)                           | ECS service with typed container definitions, IAM roles, target group and autoscaling |
-| [terraform-aws-lambda](https://github.com/orlando-mt/terraform-aws-lambda)                                     | Lambda with all packaging types, least-privilege role and event source mappings |
-| [terraform-aws-ecr](https://github.com/orlando-mt/terraform-aws-ecr)                                           | ECR repository with KMS encryption, lifecycle policy and replication |
-| [terraform-aws-eks-karpenter](https://github.com/orlando-mt/terraform-aws-eks-karpenter)                       | Karpenter on EKS with IRSA, node role, interruption queue and a scoped IAM policy |
+| Module | What it does |
+|--------|--------------|
+| [terraform-aws-eks](https://github.com/orlando-mt/terraform-aws-eks) | EKS cluster with access entries, multiple node groups, addon ordering, private endpoint by default |
+| [terraform-aws-ecs-cluster](https://github.com/orlando-mt/terraform-aws-ecs-cluster) | ECS cluster with capacity providers, Container Insights and ECS Exec logging |
+| [terraform-aws-ecs-service](https://github.com/orlando-mt/terraform-aws-ecs-service) | ECS service with typed container definitions, IAM roles, target group and autoscaling |
+| [terraform-aws-lambda](https://github.com/orlando-mt/terraform-aws-lambda) | Lambda with all packaging types, least-privilege role and event source mappings |
+| [terraform-aws-ecr](https://github.com/orlando-mt/terraform-aws-ecr) | ECR repository with KMS encryption, lifecycle policy and replication |
+| [terraform-aws-lb](https://github.com/orlando-mt/terraform-aws-lb) | Application or Network Load Balancer with listeners, target groups and routing rules |
+| [terraform-aws-karpenter](https://github.com/orlando-mt/terraform-aws-karpenter) | Karpenter on EKS with IRSA, node role, interruption queue and a scoped IAM policy |
 | [terraform-aws-load-balancer-controller](https://github.com/orlando-mt/terraform-aws-load-balancer-controller) | AWS Load Balancer Controller on EKS with IRSA and a tag-scoped IAM policy |
 
 ### Data
@@ -70,7 +71,7 @@ A set of production-oriented modules covering a full AWS platform. Each one ship
 | Module | What it does |
 |--------|--------------|
 | [terraform-aws-cloudfront](https://github.com/orlando-mt/terraform-aws-cloudfront) | CloudFront with S3, VPC and API Gateway origins behind a single domain |
-| [terraform-aws-api-gateway](https://github.com/orlando-mt/terraform-aws-api-gateway) | HTTP API base infrastructure, with stages deployed by the application pipeline |
+| [terraform-aws-api-gateway](https://github.com/orlando-mt/terraform-aws-api-gateway) | HTTP and REST API base infrastructure, with stages deployed by the application pipeline |
 
 ---
 
